@@ -4,7 +4,7 @@
   "description": "A utility library for modern JavaScript.",
   "private": true,
   "scripts": {
-    "prepublish": "./scripts/build.bash",
+    "prepublish": "babel -d . src",
     "generate-packages": "./scripts/generate-packages.js",
     "testsuite": "./scripts/testsuite.bash",
     "test": "./scripts/test.bash",

@@ -11,6 +11,5 @@ npm run create-website
 mkdir -p dist/website/images
 cp -r tools/DocumentationBuilder/app/images/* dist/website/images
 
-babel -d dist/main src
+babel -d . src
 cp README.md dist/main
-npm run generate-packages
